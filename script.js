@@ -30,8 +30,13 @@ document.addEventListener('DOMContentLoaded', function(){
         opcoesDeAcessibilidade.classList.toggle('apresenta-lista');
     })
 
-    alternaContraste.addEventListener('click', function(){document.body.classList.toggle('alternaContraste') })
+    alternaContraste.addEventListener('click', function(){document.body.classList.toggle('alterna-contraste') })
    
  });
  
+ ScrollReveal().reveal('#inicio', {delay: 500});
+ ScrollReveal().reveal('#tropicalia', {delay: 500});
+ ScrollReveal().reveal('#galeria', {delay: 500});
+ ScrollReveal().reveal('#contato', {delay: 500});
+
  
